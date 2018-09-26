@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter polaris,$(TARGET_DEVICE)),)
+ifneq ($(filter dipper polaris,$(TARGET_DEVICE)),)
 
 endif
